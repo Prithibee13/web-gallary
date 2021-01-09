@@ -1,0 +1,191 @@
+<html>
+    <body>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="handler.js"></script>
+
+
+        <div class="container">
+          <header id ="main">
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-lg-4 col-md-5">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="https://c1.wallpaperflare.com/preview/65/348/1021/smoke-camera-person-hand.jpg"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://i.pinimg.com/originals/cb/3e/1b/cb3e1bcac903e82f6d7eb4a344c178d7.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://wallpapercave.com/wp/1Odq43G.jpg" alt="Third slide">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-7">
+                  <div class="d-flex flex-column">
+                    <div class="p-5 bg-primary text-white">
+                      <div class="d-flex flex-row justify-content-between align-items-center">
+                        <h1 class="display-4">Web-gallary App</h1>
+                        <div class="d-none d-md-block">
+                          <a href="http://www.facebook.com" class="text-white">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                        </div>
+
+                        <div class="d-none d-md-block">
+                          <a href="http://www.github.com" class="text-white">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        </div>
+
+                        <div class="d-none d-md-block">
+                          <a href="http://www.linkedin.com" class="text-white">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        </div>
+                        <div class="d-none d-md-block">
+                          <a href="http://www.google.com" class="text-white">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                    <DIV class="p-4 bg-warning">
+                      <p>Store Your Dream Here</p>
+                    </DIV>
+                    <div class="d-flex flex-row text-white align-items-stretch text-center">
+                      <div class="port-item p-4 bg-dark" data-toggle="collapse" data-target="#home">
+                        <i class="fas fa-home fa-2x d-block"></i>
+                        <span class="d-none d-sm-block">Home</span>
+                      </div>
+
+                      <div class="port-item p-4 bg-info" data-toggle="collapse" data-target="#aboutme">
+                        <i class="fas fa-user fa-2x d-block"></i>
+                        <span class="d-none d-sm-block">About Me</span>
+                      </div>
+
+                      <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#aboutsite">
+                        <i class="fa fa-question-circle fa-2x d-block"></i>
+                        <span class="d-none d-sm-block">About Site</span>
+                      </div>
+                      <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#come">
+                        <i class="fas fa-address-book fa-2x d-block"></i>
+                        <span class="d-none d-sm-block">Contract Me</span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </header>
+
+             <div id="home" class="collapse">
+              <div class="card card-body bg-dark text-white py-5">
+                <h2>Welcome to my Web gallary-app</h2>
+                <p class="lead">A Web app for photo Collectors</p>
+              </div>
+             </div>
+
+             <div id="aboutme" class="collapse">
+              <div class="card card-body bg-info text-white py-5">
+                <h2>I am Aziz-ul-karim.</h2>
+                <p class="lead">I am living in Bangladesh.
+                  I am a Student of University of Chittagong,
+                  major in Computer Science and Engineering.
+                  I am a Front-End Web Developer</p>
+              </div>
+             </div>
+
+             <div id="aboutsite" class="collapse">
+              <div class="card card-body bg-success text-white py-5">
+                <h2>Store your dreams here</h2>
+                <p class="lead">Want make your own web-gallary? 
+                  Want to make a gallary of your favourite photos seen in web and mark them your own?
+                  Add your favourite photos address in our add image section,
+                  add photos as many as possible and give them your own name.
+                  Then see your gallary in dream gallary section.
+                </p>
+              </div>
+              <div class=" col-lg-4 col-xl-12">
+                <div>
+                  <nav class="w-10">
+                    <h2 class="bg-success ">Sections</h2>
+                  </nav>
+                </div>
+              </div>
+              <section class="add_img">
+                <button type="button" id="btn1" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Add Images
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Enter your images</h5>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <label>
+                                  img_src
+                              </label><br>
+                              <input class="form-control-sm" type="text" id = "src" placeholder="img-source" required/><br>
+                  
+                              <label>
+                                  img_alt
+                              </label><br>
+                              <input class = "form-control-sm" type="text" id = "alt" placeholder="img_type" required/><br>
+                          </form>
+                          <button type="button" class="btn btn-success" onclick="input()">Submit</button>
+                          <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+              </section>
+
+              <section>
+                <button class = "btn btn-light" id ="gallary" onclick="eu()" onmouseover="over()" onmouseout="over2()">Open Your Dream Gallary</button>
+                <hr class="line bg-dark " id="line">
+                <div class = "container" id="mg">
+                    <div id="lad" class="row">
+                    </div>
+                </div>
+              </section>
+
+             </div>
+
+             <div id="come" class="collapse">
+              <div class="card card-body bg-danger text-white py-5">
+                <h2>Welcome to my Web gallary-app</h2>
+                <p class="lead">A Web app for photo Collectors</p>
+              </div>
+             </div>
+
+        </div>
+
+
+          
+          <!-- Modal -->
+
+        
+
+        
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+          $('.port-item').click(function(){
+          $('.collapse').collapse('hide');
+          });
+        </script>
+    </body>
+</html>
