@@ -34,3 +34,18 @@ function over2()
 {
     document.getElementById("line").style.visibility = "hidden";
 }
+
+
+
+
+
+function showtab()
+{
+    document.getElementById('mah').style.visibility= "visible";
+}
+
+
+function showcar()
+{
+    document.getElementById("poj").style.visibility = "visible";
+}

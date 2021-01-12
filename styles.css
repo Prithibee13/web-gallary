@@ -28,6 +28,12 @@
     width: 30%;
 }
 
+#main .port-item:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 
 .add_img
 {
@@ -53,3 +59,64 @@
     width: 100%;
     height: 100%;
 }*/
+
+
+.mat
+{
+    width: 15%;   
+}
+
+.mat:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.mjs
+{
+    margin-top: 15%;
+}
+
+.mah
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    visibility: hidden;
+}
+
+
+.tof
+{
+    border: 1px solid transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tof:hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.sak
+{
+    border: 1px solid transparent;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sak:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#poj
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    visibility: hidden;
+}
