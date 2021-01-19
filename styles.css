@@ -4,6 +4,12 @@
     max-height: 600px;
 }
 
+.main
+{
+    margin-left: 20px;
+    margin-bottom: 5%;
+}
+
 #gallary
 {
     margin-top: 10%;
@@ -37,15 +43,24 @@
 
 .add_img
 {
-    margin-left: 42%;
+    margin-left: 48%;
     margin-top: 15%;
+    margin-right: 35%;
 }
 
 #btn1
 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+@media (max-width :990px)
+{
+    .add_img
+    {
+        margin-left: 40%;
+    }
 }
 
 .line
@@ -120,3 +135,24 @@
     margin-bottom: 5%;
     visibility: hidden;
 }
+
+.dea
+{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 35%;
+    border-radius: 2%;
+}
+
+#ti
+{
+    text-align: center;
+}
+
+
+
+#tet
+{
+    margin-right: 30%;
+}
+

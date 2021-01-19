@@ -65,18 +65,18 @@
                 <p class="lead">A Web app for photo Collectors</p>
               </div>
               <div>
-                <h3 class="text-center text-white bg-dark sak p-3" onclick="showcar()">
+                <h3 class="text-center text-white bg-dark sak p-3" onclick="showcar()" data-target="#poj" data-toggle="collapse">
                   What can you do here?
                 </h3>
               </div>
-              <div class="continer" id="poj">
+              <div class="continer hok" id="poj">
                 <div class="row">
                   <div class="col-xl-3 col-sm-6">
                     <div class="card">
                       <img class="card-img-top" src="data:image/jpeg;base64,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"/>
                       <div class="card-body">
                         <div class="card-title"><h3>Vintage</h3></div>
-                        <p class="card-text">Make your best seen <b> Vintage Gallary</b> here</p>
+                        <p class="card-text">Make your<b> Vintage Gallary</b></p>
                       </div> 
                     </div>
                   </div>
@@ -86,7 +86,7 @@
                       <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ13I3-AupY5o5sAbg4qmJHJrJHo-WeTELZ5w&usqp=CAU"/>
                       <div class="card-body">
                         <div class="card-title"><h3>Animale</h3></div>
-                        <p class="card-text">Make your best <b>Animal Gallary</b> here</p>
+                        <p class="card-text">Make your <b>Animal Gallary</b></p>
                       </div>
                       </div> 
                     </div>
@@ -97,7 +97,7 @@
                        <div class="card-body">
                         <div class="card-title"><h3>Scenario</h3></div>
                         <p class="card-text">
-                          Make your Best <b>Scenic Gallary</b> here
+                          Make your <b>Scenic Gallary</b>
                         </p>
                         </div>
                         </div>
@@ -113,7 +113,7 @@
                          <div class="card-title">
                           <h3>Dream</h3>
                          </div>
-                         <p class="card-text">Make your best <b>Dream Gallary</b> Here</p>
+                         <p class="card-text">Make your <b>Dream Gallary</b></p>
                       </div>
                    </div>
                   </div>
@@ -141,9 +141,7 @@
                 <h2>Store your dreams here</h2>
                 <p class="lead">Want make your own web-gallary? 
                   Want to make a gallary of your favourite photos seen in web and mark them your own?
-                  Add your favourite photos address in our add image section,
-                  add photos as many as possible and give them your own name.
-                  Then see your gallary in dream gallary section.
+                  Add your favourite photos Here.
                 </p>
               </div>
               <hr class="bg-dark">
@@ -154,7 +152,7 @@
                   <div class="bg-success text-white text-center p-3 mat det" data-target="#section" data-toggle="collapse">
                     <i class="far fa-puzzle-piece fa-2x d-block"></i>
 
-                    <h2>Sections</h2>
+                    <span class="d-none d-sm-block">section</span>
                   </div>
              
                   <div id="section" class="collapse">
@@ -162,6 +160,7 @@
                         <i class="fas fa-plus fa-2x d-block"></i>
                         <span class="d-none d-sm-block">Add Image</span>
                       </div>
+ 
 
                       <div class="mat det p-4 bg-warning" data-toggle="collapse" id="jg" data-target="#section2">
                         <i class="far fa-images fa-2x d-block"></i>
@@ -174,6 +173,8 @@
 
                 </div>
                 <div id="section1" class="collapse cok">
+                  <p class="text-center bg-primary dea text-white p-2">Fill the form in the button and add images</p>
+                  
                   <section class="add_img">
                     <button type="button" id="btn1" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                       <p>Add Images</p>
@@ -181,26 +182,26 @@
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Enter your images</h5>
+                          <div class="modal-header text-center">
+                            <h5 class="modal-title" id="ti">Enter your images</h5>
                           </div>
                           <div class="modal-body">
                               <form>
                                   <label>
-                                      <p>img_src</p>
-                                  </label><br>
-                                  <input class="form-control-sm" type="text" id = "src" placeholder="img-source" required/><br>
+                                      <p class="tet">img_src : </p>
+                                  </label>
+                                  <input class="form-control-sm" type="text" id = "src" placeholder="img-source" required/><br><br>
                       
                                   <label>
-                                      <p>img_alt</p>
-                                  </label><br>
+                                      <p>img_alt : </p>
+                                  </label>
                                   <input class = "form-control-sm" type="text" id = "alt" placeholder="img_type" required/><br>
                               </form>
-                              <button type="button" class="btn btn-success" onclick="input()" data-dismiss="modal">Submit</button>
+                              <button type="button" class="btn btn-success" id="tet" onclick="input()" data-dismiss="modal">Submit</button>
                               <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
                             </div>
                             <div class="modal-footer">
-                              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-danger" id="mr" data-dismiss="modal">Close</button>
                             </div>
                           </div>
                         </div>
@@ -210,8 +211,7 @@
     
                   <div id="section2" class="collapse cok">
                   <section>
-                    <button class = "btn btn-light" id ="gallary" onclick="eu()" onmouseover="over()" onmouseout="over2()">Open Your Dream Gallary</button>
-                    <hr class="line bg-dark " id="line">
+                    <p class="text-center bg-warning text-white dea p-2">Your Dream Gallary</p>
                     <div class = "container" id="mg">
                         <div id="lad" class="row">
                         </div>
@@ -231,7 +231,7 @@
                 <p>Dhaka, Bangladesh</p>
               </div>
               <div class="mjs table-responsive">
-                <h3 class="text-center text-white bg-danger p-3 tof" onclick="showtab()">My Addresses</h3>
+                <h3 class="text-center text-white bg-danger p-3 tof" onclick="showtab()" data-target="#mah" data-toggle="collapse"> My Addresses</h3>
                 <table class="text-center table table-bordered table-striped mah" id="mah">
                   <tr>
                     <th><h4>Websites</h4></th>
@@ -292,6 +292,14 @@
 
           $('.det').click(function(){
           $('.cok').collapse('hide');
+          });
+
+          $('.tof').click(function(){
+            $('.mah').collapse('hide');
+          });
+
+          $('.sak').click(function(){
+            $('.hok').collapse('hide');
           });
 
          
